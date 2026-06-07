@@ -20,21 +20,19 @@ The architecture is inspired by tools like **Electron** but leverages Python's e
 
 ## Project Structure
 
-
 project-root/
-│
-├── appserver.py          # Flask backend server (API endpoints + static routes)
-├── apis.py               # Modular route definitions (imported into appserver)
-├── config.py             # Central configuration (paths, ports, directories)
-├── myapp.py              # PyQt5 WebEngineView browser container (Main Application)
-├── windows.py            # Alternate/legacy PyQt5 window implementation
-├── runApp.bat            # Batch launcher (starts server + GUI)
-├── whatsNext.txt         # Development roadmap / future feature list
-│
-├── templates/            # HTML/CSS/JS frontend files (served by Flask)
-├── data/                 # Persistent local data storage
-├── temp/                 # Temporary file storage
-└── servers/              # External runtimes (e.g., php-8.2.6)
+
+    ├── appserver.py          # Flask backend server (API endpoints + static routes)
+    ├── apis.py               # Modular route definitions (imported into appserver)
+    ├── config.py             # Central configuration (paths, ports, directories)
+    ├── myapp.py              # PyQt5 WebEngineView browser container (Main Application)
+    ├── windows.py            # Alternate/legacy PyQt5 window implementation
+    ├── runApp.bat            # Batch launcher (starts server + GUI)
+    ├── whatsNext.txt         # Development roadmap / future feature list
+    ├── templates/            # HTML/CSS/JS frontend files (served by Flask)
+    ├── data/                 # Persistent local data storage
+    ├── temp/                 # Temporary file storage
+    └── servers/              # External runtimes (e.g., php-8.2.6)
 
 ## Current Features
 
@@ -140,6 +138,3 @@ This project is built on:
 **Last Updated:** 31/01/2026
 
 **For inquiries or contributions:** wawakowero11@gmail.com
-```
-
-This README provides a professional and trustworthy entry point for any developer, clearly communicating the project's intent, structure, current capabilities, and future direction.
