@@ -2,7 +2,6 @@
 php and python app (for development only)
 
 
-```markdown
 # PyWebKit Fusion: Hybrid Web + Desktop Application Framework
 
 **Current Status:** Prototype / Development Alpha
@@ -21,7 +20,7 @@ The architecture is inspired by tools like **Electron** but leverages Python's e
 
 ## Project Structure
 
-```
+
 project-root/
 │
 ├── appserver.py          # Flask backend server (API endpoints + static routes)
@@ -36,7 +35,6 @@ project-root/
 ├── data/                 # Persistent local data storage
 ├── temp/                 # Temporary file storage
 └── servers/              # External runtimes (e.g., php-8.2.6)
-```
 
 ## Current Features
 
