@@ -1,0 +1,6 @@
+devMode and usermode
+nodejs integration for live renderring 
+local database $ temporary databases
+dnsSystem & security
+
+
