@@ -6,6 +6,7 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtWidgets import *
 from config import config
 from appserver import app
+import subprocess
 
 class MainWindow(QMainWindow):
     def __init__(self, port):
@@ -59,7 +60,8 @@ def start_server(port):
     # Start your server here
     command = config["phpDir"] + "\\php.exe -S 127.0.0.1:"+ str(port) +" -t " + config["templatesDir"]
     print(command)
-    os.system(command)
+    # os.system(command)
+    subprocess.Popen(command)
 
 if __name__ == "__main__":
     port = config["thisAppPort"]

@@ -6,7 +6,8 @@ appPath =  os.getcwdb().decode('utf-8');
 
 config ={
     "thisAppPort": 999,
-    "passKey": "liderdewally",
+    "passKey": "liderwally",
+    "envMode" : "devMode", # "devMode/userMode"
     "appPath": appPath,
     "templatesDir": appPath + "\\templates",
     "dataDir": appPath + "\\data",

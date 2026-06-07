@@ -137,11 +137,11 @@ This project is built on:
 
 ---
 
-**Project Lead / Architect:** (Your Name / Organization)
+**Project Lead / Architect:** LiderWally
 
-**Last Updated:** (Current Date)
+**Last Updated:** 31/01/2026
 
-**For inquiries or contributions:** (Your Email / Repository Link)
+**For inquiries or contributions:** wawakowero11@gmail.com
 ```
 
 This README provides a professional and trustworthy entry point for any developer, clearly communicating the project's intent, structure, current capabilities, and future direction.
